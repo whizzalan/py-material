@@ -1,8 +1,0 @@
-05-25 17:24 root         DEBUG    debug level
-05-25 17:24 root         INFO     info level
-05-25 17:24 root         WARNING  wran level
-05-25 17:24 root         ERROR    error level
-05-25 17:24 myapp.first  DEBUG    低八葛
-05-25 17:24 myapp.first  INFO     因佛
-05-25 17:24 myapp.second WARNING  亡靈
-05-25 17:24 myapp.second ERROR    A羅

@@ -5,7 +5,7 @@ __author__= 'George Chao'
 __version__= '0.1'
 
 '''
-usuage: python test.py -i <inputFile> -o <outputFile> -l <logfile> -d <txdate>
+usuage: python <name>.py -i <inputFile> -o <outputFile> -l <logfile> -d <txdate>
 '''
 
 
@@ -15,7 +15,7 @@ import logging
 
 
 def usage():
-    print 'Usage: python %s [-i | -o | -l | -d] [--help]' % sys.argv[0]
+    print 'Usage: python %s [-i|-o|-l|-d] [--help]' % sys.argv[0]
     print 'python %s -i <inputFile> -o <outputFile> -l <logfile> -d <date>' % sys.argv[0]
 
 def main(argv):
