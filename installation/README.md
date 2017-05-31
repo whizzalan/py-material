@@ -24,3 +24,13 @@ ldconfig
 + 安裝套件  
 `pip install --download /path/to/download/to_packagename`
 
+## [小進階] virtualenv usage
+
++ 建立專案
+`virtualenv <projectName>`
++ 開啟環境所使用Python版本
+`virtualenv -p <opt/Python2.7/bin/Python2.7> <projectName>`
+ - 或是直接將預設虛擬環境指定好 `vi ~/.bashrc`
+ `export VIRTUALENVWRAPPER_PYTHON=/opt/Python2.7/bin/Python2.7`
++ 必須啟動才生效
+  `source <projectPath>/bin/activate`
