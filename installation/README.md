@@ -34,3 +34,6 @@ ldconfig
  `export VIRTUALENVWRAPPER_PYTHON=/opt/Python2.7/bin/Python2.7`
 + 必須啟動才生效
   `source <projectPath>/bin/activate`
+
+> Ref
++ http://python-guide-pt-br.readthedocs.io/en/latest/dev/virtualenvs/#virtualenvironments-ref
