@@ -82,6 +82,11 @@ python setup.py install
 
 > pip is configured with locations that require TLS/SSL, however the ssl module in Python is not available.
 
+```shell=
+zypper install openssl
+zypper install openssl-devel
+# 然後重新compile python2.7就行惹
+```
 
 
 
