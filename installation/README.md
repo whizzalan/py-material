@@ -24,9 +24,18 @@ python setup.py install
 ln -sfn /usr/local/bin/pip /usr/bin/pip
 ```
 
+
 ## Offline Packages Installation
 
-+ 下載套件  
++ [方法一] goto and download: https://pypi.python.org/pypi/pip?
+
+```shell=
+xvfz pip-9.0.1.tar.gz
+cd pip-9.0.1
+python setup.py install
+```
+
++ [方法二] pip下載套件  
 `pip install --download=/path/to/packages/downloaded <packageName>`
 
 + 下載 requirement 套件列表  
@@ -35,7 +44,18 @@ ln -sfn /usr/local/bin/pip /usr/bin/pip
 + 安裝套件  
 `pip install --download /path/to/download/to_packagename`
 
-## [小進階] virtualenv usage
+## [小進階] Virtualenv
+### Install virtualenv
+
++ goto and download: https://pypi.python.org/pypi/virtualenv?
+
+```shell=
+xvfz virtualenv-15.1.0.tar.gz
+cd virtualenv-15.1.0
+python setup.py install
+```
+
+### virtualenv usage
 
 + 建立專案
 `virtualenv <projectName>`
