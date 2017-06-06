@@ -74,11 +74,15 @@ python setup.py install
  `export VIRTUALENVWRAPPER_PYTHON=/opt/Python2.7/bin/Python2.7`
 + 必須啟動才生效
   `source <projectPath>/bin/activate`
++ 離開 `deactivate`
 
 > Ref
 + http://python-guide-pt-br.readthedocs.io/en/latest/dev/virtualenvs/#virtualenvironments-ref
 
 ## Other Issue for SuSe
+
+> os install zlib-devel
+
 
 > pip is configured with locations that require TLS/SSL, however the ssl module in Python is not available.
 
