@@ -1,11 +1,11 @@
 
-## Install Python 2.7
+## Install Python 2.7.10
 
 + SUSE SLEX 11-SP3 & Centos 6.7 適用
 ```shell=
-wget https://www.python.org/ftp/python/2.7.12/Python-2.7.12.tgz
-tar xvfz Python-2.7.12.tgz
-cd Python-2.7.12
+wget https://www.python.org/ftp/python/2.7.10/Python-2.7.10.tgz
+tar xvfz Python-2.7.10.tgz
+cd Python-2.7.10
 ./configure --prefix=/opt/python2.7 --enable-shared
 make
 make altinstall
