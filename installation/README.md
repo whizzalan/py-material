@@ -6,7 +6,7 @@
 wget https://www.python.org/ftp/python/2.7.10/Python-2.7.10.tgz
 tar xvfz Python-2.7.10.tgz
 cd Python-2.7.10
-./configure --prefix=/opt/python2.7 --enable-shared
+./configure --prefix=/opt/python2.7 --enable-shared --with-zlib --with-threads
 make
 make altinstall
 echo "/opt/python2.7/lib" >> /etc/ld.so.conf.d/opt-python2.7.conf
@@ -23,6 +23,12 @@ zypper install python-setuptools
 python setup.py install
 ln -sfn /usr/local/bin/pip /usr/bin/pip
 ```
+### pip usage
+
+```shell=
+pip show <packageName>
+```
+
 
 
 ## Offline Packages Installation
@@ -43,6 +49,9 @@ python setup.py install
 
 + 安裝套件  
 `pip install --download /path/to/download/to_packagename`
+
+
+
 
 ## [小進階] Virtualenv
 ### Install virtualenv
@@ -68,3 +77,11 @@ python setup.py install
 
 > Ref
 + http://python-guide-pt-br.readthedocs.io/en/latest/dev/virtualenvs/#virtualenvironments-ref
+
+## Other Issue for SuSe
+
+> pip is configured with locations that require TLS/SSL, however the ssl module in Python is not available.
+
+
+
+
