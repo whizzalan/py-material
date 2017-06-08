@@ -13,6 +13,18 @@ echo "/opt/python2.7/lib" >> /etc/ld.so.conf.d/opt-python2.7.conf
 ldconfig
 ```
 
+## Repair SUSE-11 OS Python 2.6.9
+
+```shell=
+wget https://www.python.org/ftp/python/2.6.9/Python-2.6.9.tar.xz
+tar xpvf Python-2.6.9.tar.xz -C .
+./configure --prefix=/opt/python2.6 --enable-shared --with-zlib --with-threads
+make
+make altinstall
+echo "/opt/python2.6/lib" >> /etc/ld.so.conf.d/opt-python2.6.conf
+ldconfig
+```
+
 ## Linux install pip
 
 ```shell=
