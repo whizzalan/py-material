@@ -11,6 +11,8 @@ make
 make altinstall
 echo "/opt/python2.7/lib" >> /etc/ld.so.conf.d/opt-python2.7.conf
 ldconfig
+# 如果失效，直接強制指定 file
+ldconfig -f /etc/ld.so.conf.d/opt-python2.7.conf
 ```
 
 ## Repair SUSE-11 OS Python 2.6.9
