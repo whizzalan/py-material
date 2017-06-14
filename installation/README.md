@@ -110,5 +110,10 @@ zypper install openssl openssl-devel
 zypper install ...
 pip install <readline>
 ```
+> install ssl pacakge for python
+```shell=
+zypper install libopenssl-devel-1.0.0c-17.1.x86_64.rpm 
+# recompile your python
+```
 
 
