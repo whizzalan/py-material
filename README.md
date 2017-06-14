@@ -1,7 +1,5 @@
 # py-material
 
-[TOC]
-
 ## python Env installation
 
 ## python system instruction
