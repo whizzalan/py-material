@@ -93,7 +93,7 @@ conda install tensorflow
 #     twisted:           18.7.0-py36h470a237_0    conda-forge --> 17.5.0-py36_0
 ```
 
-# jupyterhub
+# Jupyterhub
 
 need small case useraccount
 
