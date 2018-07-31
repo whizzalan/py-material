@@ -5,7 +5,7 @@ Downloads Anaconda3-5.2.0-Linux-x86_64.sh
 
 1. Downlaod Anacodna
 2. install JupyterLab
-3. 
+3. install tensorflow
 
 
 ```shell=
@@ -47,7 +47,50 @@ conda install -c conda-forge jupyterhub
 #    twisted:                 18.7.0-py36h470a237_0 conda-forge
 #    zope.interface:          4.5.0-py36h470a237_0  conda-forge
  
- 
+conda install tensorflow
+# The following packages will be downloaded:
+# 
+#     package                    |            build
+#     ---------------------------|-----------------
+#     protobuf-3.5.2             |   py36hf484d3e_1         610 KB
+#     tensorflow-base-1.9.0      |mkl_py36h2ca6a6a_0        75.7 MB
+#     libprotobuf-3.5.2          |       h6f1eeef_0         4.2 MB
+#     astor-0.7.1                |           py36_0          43 KB
+#     certifi-2018.4.16          |           py36_0         142 KB
+#     markdown-2.6.11            |           py36_0         104 KB
+#     absl-py-0.3.0              |           py36_0         137 KB
+#     grpcio-1.12.1              |   py36hdbcaa40_0         1.7 MB
+#     gast-0.2.0                 |           py36_0          15 KB
+#     twisted-17.5.0             |           py36_0         4.3 MB
+#     tensorboard-1.9.0          |   py36hf484d3e_0         3.3 MB
+#     tensorflow-1.9.0           |mkl_py36h6d6ce78_1           3 KB
+#     _tflow_190_select-0.0.3    |              mkl           2 KB
+#     termcolor-1.1.0            |           py36_1           7 KB
+#     ------------------------------------------------------------
+#                                            Total:        90.2 MB
+# 
+# The following NEW packages will be INSTALLED:
+# 
+#     _tflow_190_select: 0.0.3-mkl
+#     absl-py:           0.3.0-py36_0
+#     astor:             0.7.1-py36_0
+#     gast:              0.2.0-py36_0
+#     grpcio:            1.12.1-py36hdbcaa40_0
+#     libprotobuf:       3.5.2-h6f1eeef_0
+#     markdown:          2.6.11-py36_0
+#     protobuf:          3.5.2-py36hf484d3e_1
+#     tensorboard:       1.9.0-py36hf484d3e_0
+#     tensorflow:        1.9.0-mkl_py36h6d6ce78_1
+#     tensorflow-base:   1.9.0-mkl_py36h2ca6a6a_0
+#     termcolor:         1.1.0-py36_1
+# 
+# The following packages will be UPDATED:
+# 
+#     certifi:           2018.4.16-py36_0         conda-forge --> 2018.4.16-py36_0
+# 
+# The following packages will be DOWNGRADED:
+# 
+#     twisted:           18.7.0-py36h470a237_0    conda-forge --> 17.5.0-py36_0
 ```
 
 # jupyterhub
