@@ -103,6 +103,12 @@ jupyterhub --ip * --port 54321
 
 ```
 
+# JupyterLab
 
+```shell=
+jupyter notebook --generate-config
+# c.NotebookApp.token = '371d802515cddcdbc8a15adc24d6f3037fd0f6b69948e8a3'
+jupyter lab
+```
 
 
