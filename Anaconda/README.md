@@ -97,7 +97,7 @@ conda install tensorflow
 
 need small case useraccount
 
-
+openssl req -x509 -nodes -days 365 -newkey rsa:1024 -keyout jupyterhub.key -out jupyterhub.crt
 
 
 
