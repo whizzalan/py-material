@@ -97,8 +97,11 @@ conda install tensorflow
 
 need small case useraccount
 
+```shell=
 openssl req -x509 -nodes -days 365 -newkey rsa:1024 -keyout jupyterhub.key -out jupyterhub.crt
+jupyterhub --ip * --port 54321
 
+```
 
 
 
